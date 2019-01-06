@@ -1,0 +1,42 @@
+body {
+    margin-top: 0;
+    background-image: url("https://horihiroki.com/wp-content/uploads/2017/05/IMG_3812.jpg");
+    background: linear-gradient( rgba(0,0,0,0.6), rgba(0, 0, 0, 0.8) ),url("https://horihiroki.com/wp-content/uploads/2017/05/IMG_3812.jpg");
+    background-size: 100% 100%;
+
+}
+
+#container{
+  width: 90vw;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.keys {
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  margin-top: 30vh;
+}
+
+.key {
+  border: 4px solid red;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.8em;
+  font-family: 'Indie Flower', cursive;
+}
+.key:hover {
+    color: white;
+    background-color: #002004;
+    cursor: pointer;
+}
+
+.clicked{
+  border: 8px solid darkgoldenrod;
+  background-color: purple;
+}
